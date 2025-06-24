@@ -29,6 +29,9 @@ This is a simple **JWT-based Authentication and Authorization API** built with *
 
 JWT_Authentication_Sistemi/
 │
+├── Properties/
+│ └── launchSettings.json
+│ 
 ├── Controllers/
 │ └── AuthController.cs
 │
@@ -36,6 +39,8 @@ JWT_Authentication_Sistemi/
 │ ├── User.cs
 │ ├── LoginDto.cs
 │ └── RegisterDto.cs
+│ └── JWT_AuthenticationDBSettings.cs
+
 │
 ├── JwtTokenHelper.cs
 ├── Program.cs
